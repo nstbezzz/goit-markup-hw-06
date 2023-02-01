@@ -472,7 +472,7 @@ button:focus {
   padding-top: 100px;
   padding-bottom: 100px;
  
-  padding-left: 15px;
+  
   background-color: var(--title-text-color);
   display: flex;
 }
@@ -517,7 +517,7 @@ button:focus {
 }
 
 .footer-soc-link {
-  margin-top: 16px;
+  
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -544,16 +544,17 @@ button:focus {
 .subscribe-footer { padding: 0;
   display: block;
   margin-left: 80px;
+  
 }
 
-.form-footer {
-  }
 
 
-.subscribe-container {display: flex;}
+.subscribe-container {display: flex;
+}
+
+.name-title.footer-title {margin-bottom: 16px;}
 
 .sub-input { padding: 8px 16px;
-  margin-top: 16px;
   width: 264px;
 height: 40px;
 
@@ -585,7 +586,6 @@ color: rgba(255, 255, 255, 0.6);}
 .footer-btn {
   display: flex;
 flex-direction: row;
-margin-top: 16px;
 margin-left: 24px;
 padding: 8px 24px;
   
@@ -807,7 +807,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
   transform: translate(-50%, -50%);
 
   width: 408px;
-  height: 576px;
+  min-height: 576px;
 
   background-color: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -855,6 +855,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
 .modal-form {
   display: flex;
   flex-direction: column;
+  
 }
 
 .modal-text {
@@ -867,9 +868,10 @@ text-align: center;
 color: #2E2F42;
 }
 
-.modal-form-field {
+.modal-form-field {margin-bottom: 8px;
 
 }
+ .text-area {margin-bottom: 16px;}
 
 .modal-form-input-desc {
   display: block;
@@ -888,7 +890,6 @@ color: #8E8F99;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
-margin-bottom: 8px;
 padding-left: 38px;
 
 font-family: 'Roboto';
@@ -938,7 +939,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
  {
   fill: var(--accent-color);}
 
-  .modal-form-message {margin-bottom: 16px;
+  .modal-form-message {
     padding: 8px 16px;
   width: 100%;
 height: 120px;
@@ -1015,7 +1016,7 @@ height: 56px;
   line-height: 1.18;
   align-items: center;
   text-align: center;
-  
+
 border: none;
   align-self: center;
   letter-spacing: 0.04em;
